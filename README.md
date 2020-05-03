@@ -12,3 +12,5 @@ The raw data is extracted from Wikipedia and Kaggle, and then merged into one bi
 Skimming the columns (see Movies.ipynb), there were many extraneous values that were dropped. After isolating individual columns and figuring out what data was the most relevant (wikipedia or kaggle), the data was further edited or trimmed based on rating, runtime, budget, or revenue. 
 ## Load 
 The refined data was then uploaded to SQL for end user. Note that ratings.csv is a large file and the code may take some time to run.
+# Assumptions
+For the challenge code to work, we are assuming that the data is downloaded into the correct file (need wikipedia, kaggle, and ratings data for the movies). These are pulled from a json and locally downloaded files ratings.csv and movies_metadata.csv. These csv's have not both been uploaded due to the size of ratings.csv being 800 mb. 
