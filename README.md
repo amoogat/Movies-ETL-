@@ -13,4 +13,4 @@ Skimming the columns (see Movies.ipynb), there were many extraneous values that 
 ## Load 
 The refined data was then uploaded to SQL for end user. Note that ratings.csv is a large file and the code may take some time to run.
 # Assumptions
-For the challenge code to work, we are assuming that the data is downloaded into the correct file (need wikipedia, kaggle, and ratings data for the movies). These are pulled from a json and locally downloaded files ratings.csv and movies_metadata.csv. These csv's have not both been uploaded due to the size of ratings.csv being 800 mb. 
+For the challenge code to work, we are assuming that the data is downloaded into the correct file (need wikipedia, kaggle, and ratings data for the movies). These are pulled from a json and locally downloaded files ratings.csv and movies_metadata.csv. These csv's have not both been uploaded due to the size of ratings.csv being 800 mb. It is also assuming that the end user has typed in their password for SQL and saved it in config. User must also have imported all the dependencies and downloaded psycopg2 to load into sql.
