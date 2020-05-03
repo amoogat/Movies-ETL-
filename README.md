@@ -7,7 +7,7 @@ This repository uses ETL (Extraction, Transformation, Loading) to process data r
 - psycopg2 for sql loading
 - Repo connects SQL using jupyter notebook for python and pg Admin for SQL
 ## Extraction 
-The data is extracted from wikipedia and kaggle, and then merged into one big dataset.
+The data is extracted from Wikipedia and Kaggle, and then merged into one big dataset.
 ## Transformation
 Skimming the columns, there were many extraneous values that were then dropped. After isolating individual columns and figuring out what data was the most relevant (wikipedia or kaggle), the data was further edited or trimmed based on rating, runtime, budget, or revenue. 
 ## Load 
